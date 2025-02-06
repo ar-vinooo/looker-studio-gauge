@@ -14,12 +14,11 @@
             "id": "gauge_chart",
             "name": "Gauge Chart with Needle",
             "description": "A gauge chart with a needle indicator",
-            "iconUrl": "https://your-icon-url.png",
-            "infoUrl": "https://your-info-url.com",
+            "iconUrl": "https://avatars.githubusercontent.com/u/58042724?v=4",
+            "infoUrl": "https://github.com/ar-vinooo/looker-studio-gauge",
             "resource": {
-                "js": "gs://your-bucket/gauge-chart.js",
-                "config": "gs://your-bucket/gauge-config.json",
-                "css": "gs://your-bucket/gauge-style.css"
+                "js": "https://raw.githubusercontent.com/ar-vinooo/looker-studio-gauge/refs/heads/main/gauge-chart.js",
+                "config": "https://raw.githubusercontent.com/ar-vinooo/looker-studio-gauge/refs/heads/main/gauge-config.json"
             }
         }
     ]
