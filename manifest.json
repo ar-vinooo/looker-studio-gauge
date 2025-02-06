@@ -1,12 +1,12 @@
 {
     "dataStudio": {
-        "name": "Custom Gauge Chart",
-        "company": "Your Company",
+        "name": "Custom Gauge Chart By Arvino",
+        "company": "ZenoSoft",
         "logoUrl": "https://your-company-logo-url.png",
         "supportedDataTypes": [
             "NUMBER"
         ],
-        "packageUrl": "https://your-hosted-file-url.js",
+        "packageUrl": "https://raw.githubusercontent.com/ar-vinooo/looker-studio-gauge/refs/heads/main/script.js",
         "components": {
             "visualization": {
                 "script": "script.js",
