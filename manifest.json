@@ -7,7 +7,7 @@
     "supportUrl": "https://github.com/ar-vinooo",
     "privacyPolicyUrl": "https://github.com/ar-vinooo",
     "termsOfServiceUrl": "https://github.com/ar-vinooo",
-    "packageUrl": "https://your-hosted-manifest-url.json",
+    "packageUrl": "https://raw.githubusercontent.com/ar-vinooo/looker-studio-gauge/refs/heads/main/manifest.json",
     "devMode": false,
     "components": [
         {
