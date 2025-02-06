@@ -1,0 +1,25 @@
+{
+    "style": [
+        {
+            "id": "needleColor",
+            "value": {
+                "type": "COLOR",
+                "defaultValue": "#FF0000"
+            }
+        },
+        {
+            "id": "minValue",
+            "value": {
+                "type": "NUMBER",
+                "defaultValue": 0
+            }
+        },
+        {
+            "id": "maxValue",
+            "value": {
+                "type": "NUMBER",
+                "defaultValue": 100
+            }
+        }
+    ]
+}

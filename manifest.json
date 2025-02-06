@@ -1,17 +1,26 @@
 {
-    "dataStudio": {
-        "name": "Gauge Chart By Arvino",
-        "company": "ZenoSoft",
-        "logoUrl": "https://avatars.githubusercontent.com/u/58042724?v=4",
-        "supportedDataTypes": [
-            "NUMBER"
-        ],
-        "packageUrl": "https://raw.githubusercontent.com/ar-vinooo/looker-studio-gauge/refs/heads/main/script.js",
-        "components": {
-            "visualization": {
-                "script": "script.js",
-                "usesData": true
+    "name": "Gauge Chart By Arvino",
+    "organization": "ZenoSoft",
+    "description": "A package of custom visualizations including a gauge chart.",
+    "logoUrl": "https://avatars.githubusercontent.com/u/58042724?v=4",
+    "organizationUrl": "https://github.com/ar-vinooo",
+    "supportUrl": "https://github.com/ar-vinooo",
+    "privacyPolicyUrl": "https://github.com/ar-vinooo",
+    "termsOfServiceUrl": "https://github.com/ar-vinooo",
+    "packageUrl": "https://your-hosted-manifest-url.json",
+    "devMode": false,
+    "components": [
+        {
+            "id": "gauge_chart",
+            "name": "Gauge Chart with Needle",
+            "description": "A gauge chart with a needle indicator",
+            "iconUrl": "https://your-icon-url.png",
+            "infoUrl": "https://your-info-url.com",
+            "resource": {
+                "js": "gs://your-bucket/gauge-chart.js",
+                "config": "gs://your-bucket/gauge-config.json",
+                "css": "gs://your-bucket/gauge-style.css"
             }
         }
-    }
+    ]
 }
