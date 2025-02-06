@@ -1,0 +1,17 @@
+{
+    "dataStudio": {
+        "name": "Custom Gauge Chart",
+        "company": "Your Company",
+        "logoUrl": "https://your-company-logo-url.png",
+        "supportedDataTypes": [
+            "NUMBER"
+        ],
+        "packageUrl": "https://your-hosted-file-url.js",
+        "components": {
+            "visualization": {
+                "script": "script.js",
+                "usesData": true
+            }
+        }
+    }
+}
