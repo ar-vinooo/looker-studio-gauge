@@ -1,10 +1,15 @@
 {
-  "dataStudio": {
-    "name": "Gauge Chart D3",
-    "logoUrl": "https://yourdomain/logo.png",
-    "company": "Your Name",
-    "supportUrl": "https://yourdomain/support",
-    "components": ["dscc"],
-    "script": "gauge-chart.js",
-  }
+  "name": "Custom Gauge Visualization",
+  "organization": "Arvino",
+  "description": "A custom gauge visualization for Looker Studio.",
+  "components": [
+    {
+      "id": "gauge-viz",
+      "name": "Gauge Visualization",
+      "description": "Displays a gauge based on metric value.",
+      "resource": {
+        "js": "gauge-chart.js"
+      }
+    }
+  ]
 }
